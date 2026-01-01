@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "BasketFiller",
+    "description": "**Basket Filler** is a full-stack e-commerce platform that delivers a smooth and secure online shopping experience for users while giving admins powerful tools to manage products, orders, and analytics. Built with **Node.js**, **Express**, **MongoDB**, and **React**, it ensures scalability, performance, and maintainability.",
+    "github": "https://github.com/vigreenhussainmoiyedi23-lab/BasketFiller",
+    "live": [
+      { "Link": "https://basket-filler-ixng.vercel.app/", "name": "basketFiller" },
+      { "Link": "https://basket-filler.vercel.app/", "name": "admin" }
+    ],
+    "thumbnail": "/thumbnails/BasketFiller.png"
+  },
+  {
+    "id": 2,
+    "title": "Mini Project",
+    "description": "**Mini Project** is a social platform where users can register, log in, and share their thoughts. Each user can **create, edit, or delete posts**, and also **like or unlike** other users’ posts. It demonstrates user authentication, CRUD functionality, and interactive UI elements using the **EJS & MEN** stack.",
+    "github": "https://github.com/vigreenhussainmoiyedi23-lab/mini_project",
+    "live": [
+      { "Link": "https://mini-project-k3uf.onrender.com/", "name": "Mini_Project" }
+    ],
+    "thumbnail": "/thumbnails/mini_project.png"
+  }
+]
