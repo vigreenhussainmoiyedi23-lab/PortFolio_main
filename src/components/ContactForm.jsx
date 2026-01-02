@@ -15,7 +15,10 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    if (isloading) {
+      return;
+    }
+    setIsloading(true);
     try {
       await emailjs.send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -26,11 +29,14 @@ const ContactForm = () => {
 
       setStatus("✅ Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
+      setIsloading(false);
     } catch (error) {
+      setIsloading(false);
       setStatus("❌ Failed to send message. Please try again later.");
     }
   };
 
+  const [isloading, setIsloading] = useState(false);
   return (
     <section className="py-24 px-6 md:px-16 bg-linear-to-tr from-[#0a0f13] via-[#122c3d] to-[#1b3e4b] text-gray-100 flex flex-col items-center">
       {/* Title */}
@@ -94,9 +100,12 @@ const ContactForm = () => {
         />
         <button
           type="submit"
-          className="bg-gradient-to-r from-teal-400 to-cyan-500 text-gray-900 font-semibold px-6 py-3 rounded-lg hover:scale-105 transition-all"
+          className={`${isloading && "animate-pulse"}
+          bg-gradient-to-r from-teal-400 to-cyan-500
+           text-gray-900 font-semibold px-6 py-3 rounded-lg hover:scale-105 transition-all`}
+          
         >
-          Send Message
+         {isloading?"Sending ": "Send Message"}
         </button>
 
         {status && (
