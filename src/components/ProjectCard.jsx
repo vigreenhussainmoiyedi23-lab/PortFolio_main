@@ -27,6 +27,9 @@ const ProjectCard = ({ project }) => {
         <h3 className="absolute bottom-3 left-4 text-xl font-semibold text-white drop-shadow-md">
           {project.title}
         </h3>
+        <h3 className={`absolute top-3 right-4 text-xs font-medium rounded-2xl p-2 text-white drop-shadow-md ${project.status==="completed"?"bg-green-300/50 backdrop-blur-2xl":"bg-blue-600/50 backdrop-blur-2xl"}`}>
+          {project.status}
+        </h3>
       </div>
 
       {/* Description */}

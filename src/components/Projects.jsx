@@ -17,7 +17,7 @@ const Projects = () => {
         spaceBetween={30}
         slidesPerView={1}
         navigation
-        centeredSlides={true}
+        loop={true}
         pagination={{ clickable: true }}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         breakpoints={{

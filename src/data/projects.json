@@ -8,7 +8,8 @@
       { "Link": "https://basket-filler-ixng.vercel.app/", "name": "basketFiller" },
       { "Link": "https://basket-filler.vercel.app/", "name": "admin" }
     ],
-    "thumbnail": "/thumbnails/BasketFiller.png"
+    "thumbnail": "/thumbnails/BasketFiller.png",
+    "status": "completed"
   },
   {
     "id": 2,
@@ -18,6 +19,16 @@
     "live": [
       { "Link": "https://mini-project-k3uf.onrender.com/", "name": "Mini_Project" }
     ],
-    "thumbnail": "/thumbnails/mini_project.png"
+    "thumbnail": "/thumbnails/mini_project.png",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "title": "JEERA-LinkedIn Hybrid",
+    "description": "**JEERA-LinkedIn Hybrid** is an ongoing full-stack project that combines professional social features with collaborative work management. Users can create profiles with skills, share posts, and manage projects with roles (admin, coAdmin, member). Within each project, users can communicate via real-time chat, manage tasks on a Kanban board, and handle invites and role promotions.",
+    "github": "https://github.com/vigreenhussainmoiyedi23-lab/JEERA",
+    "live": [],
+    "thumbnail": "/thumbnails/JEERA.jpg",
+    "status": "inProgress"
   }
 ]
