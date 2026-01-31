@@ -5,7 +5,10 @@
     "description": "**Basket Filler** is a full-stack e-commerce platform that delivers a smooth and secure online shopping experience for users while giving admins powerful tools to manage products, orders, and analytics. Built with **Node.js**, **Express**, **MongoDB**, and **React**, it ensures scalability, performance, and maintainability.",
     "github": "https://github.com/vigreenhussainmoiyedi23-lab/BasketFiller",
     "live": [
-      { "Link": "https://basket-filler-ixng.vercel.app/", "name": "basketFiller" },
+      {
+        "Link": "https://basket-filler-ixng.vercel.app/",
+        "name": "basketFiller"
+      },
       { "Link": "https://basket-filler.vercel.app/", "name": "admin" }
     ],
     "thumbnail": "/thumbnails/BasketFiller.png",
@@ -17,7 +20,10 @@
     "description": "**Mini Project** is a social platform where users can register, log in, and share their thoughts. Each user can **create, edit, or delete posts**, and also **like or unlike** other users’ posts. It demonstrates user authentication, CRUD functionality, and interactive UI elements using the **EJS & MEN** stack.",
     "github": "https://github.com/vigreenhussainmoiyedi23-lab/mini_project",
     "live": [
-      { "Link": "https://mini-project-k3uf.onrender.com/", "name": "Mini_Project" }
+      {
+        "Link": "https://mini-project-k3uf.onrender.com/",
+        "name": "Mini_Project"
+      }
     ],
     "thumbnail": "/thumbnails/mini_project.png",
     "status": "completed"
@@ -27,8 +33,13 @@
     "title": "JEERA-LinkedIn Hybrid",
     "description": "**JEERA-LinkedIn Hybrid** is an ongoing full-stack project that combines professional social features with collaborative work management. Users can create profiles with skills, share posts, and manage projects with roles (admin, coAdmin, member). Within each project, users can communicate via real-time chat, manage tasks on a Kanban board, and handle invites and role promotions.",
     "github": "https://github.com/vigreenhussainmoiyedi23-lab/JEERA",
-    "live": [],
+    "live": [
+      {
+        "Link": "https://jeera-virid.vercel.app/",
+        "name": "basketFiller"
+      }
+    ],
     "thumbnail": "/thumbnails/JEERA.jpg",
-    "status": "inProgress"
+    "status": "completed"
   }
 ]
